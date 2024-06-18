@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(126, 126, 126);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.288);
+           
+        }
+        nav > a{
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            margin: 10px;
+        }
+        nav > a:houver{
+            text-decoration: underline;
+        }
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(83, 83, 83, 0.342);
+        }
+        footer{
+            background-color: black;
+            color:aliceblue;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(187, 187, 187);
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            width: 100px;
+            height: 100px;
+            background-color: aliceblue;
+            margin: 10px;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <p>esportes</p>
+
+        </section>
+        <section id="assuntos">
+            <article>
+                <h2>Html no Brasil</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quos modi nihil doloremque recusandae. Eos fugiat ducimus saepe vel nemo nostrum nam, dignissimos accusamus placeat iste fugit magni quaerat impedit.
+                </p>
+                <aside>
+                    <p>escrito por jose</p>
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por pedro</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
